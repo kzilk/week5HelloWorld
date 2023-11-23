@@ -5,4 +5,4 @@ In your powershell, command prompt, or terminal, change the directory into the H
 
 enter 'python manage.py runserver'
 
-In your browser, go to 'localhost:8000/hello' to view the Hellow World message
+In your browser, go to 'localhost:8000/hello' to view the Hello World message
