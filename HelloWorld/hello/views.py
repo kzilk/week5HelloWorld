@@ -3,7 +3,5 @@ from django.http import HttpResponse
 
 def index(request):
 #should access model objects and use Templates to prepare response
-
-    return HttpResponse('Hello World')
-
-# Create your views here.
+    text = "Hello World!"
+    return render(request, 'index.html', {'text': text})
